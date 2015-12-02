@@ -1,0 +1,39 @@
+body, div, header, nav, ul, li, img, article, p, a, h1, h2, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width:80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
